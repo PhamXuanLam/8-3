@@ -1,16 +1,16 @@
-// (function () {
-//
-//     function playMusic(){
-//       var myAudio = document.getElementById('playAudio');
-//       if (myAudio.duration > 0 && !myAudio.paused) {
-//           //Its playing...do your job
-//
-//       } else {
-//         myAudio.play()
-//         //Not playing...maybe paused, stopped or never played.
-//
-//       }
-//     }
+(function () {
+
+    function playMusic(){
+      var myAudio = document.getElementById('playAudio');
+      if (myAudio.duration > 0 && !myAudio.paused) {
+          //Its playing...do your job
+
+      } else {
+        myAudio.play()
+        //Not playing...maybe paused, stopped or never played.
+
+      }
+    }
 //
 //     //fields
 //     var canvas = document.getElementById("canvas");
@@ -250,5 +250,4 @@
 //     this.x = x
 //     this.y = y
 //   }
-//   })("sweaverD.com");
-//
+  })("sweaverD.com");
